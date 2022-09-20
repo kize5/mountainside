@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site sur la montagne par un futur développeur">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preload" href="font/TradeWinds-Regular.ttf" as="font" type="tff" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Mountain side</title>
+</head>
+
+<body>
+    <div class="all">
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <button aria-label="bouton menu" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="mountain-side.html">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="qui_suis_je.html">Qui suis je ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pourquoi_dev.html">Pourquoi développeur ?</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="articles.html">Articles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog.html">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="accueil">
+            <img class="wallpaper" src="media/wallpaper2.webp" alt="fond d'écran">
+            <div class="c_logo">
+                <img class="logo" src="media/logo.png" alt="logo">
+            </div>
+        </div>
+        <h1 id="text_logo">Welcome home</h1>
+
+        <div class="divtriangle">
+            <div class="triangle"></div>
+        </div>
+
+        <h2 class="qui">Qui suis je ?</h2>
+
+        <div class="qui_text">
+            <div class="col_qui">
+                <p class="txt_qui">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Necessitatibus ipsum ex inventore eos, perspiciatis adipisci blanditiis atque reprehenderit
+                    reiciendis praesentium neque pariatur soluta repellendus quasi eius eligendi, tenetur corporis
+                    provident.</p>
+            </div>
+            <div class="col_qui">
+                <p class="txt_qui">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cum
+                    quidem nesciunt corporis commodi, neque nobis est nisi optio magni,
+                    obcaecati suscipit libero illo provident. Velit sunt excepturi ipsum aut.</p>
+            </div>
+        </div>
+
+        <div class="savoir_plus">
+            <a href="qui_suis_je.html">
+                <button class="bouton">En savoir plus</button>
+            </a>
+        </div>
+
+        <div class="lac">
+            <img class="lac_b" src="media/lac_b_detour.webp" alt="lac blanc">
+            <q class="citation_lac">Quand tu arrives en haut, continue de grimper</q>
+        </div>
+
+        <div class="div_triangle_foret">
+            <img id="img_triangle_foret_fond" src="media/losange_foret.webp" alt="fond forêt en triangle">
+            <div class="col_tri">
+                <img class="img_triangle" src="media/lap_montagne.jpg" alt="developpeur en montagne">
+                <p class="txt_tri">Pourquoi développeur ?</p>
+                <a href="pourquoi_dev.html">
+                    <button class="bouton">Par ici</button>
+                </a>
+            </div>
+            <div class="col_tri">
+                <img class="img_triangle" src="media/aravis.jpg" alt="aravis">
+                <p class="txt_tri">Articles</p>
+                <a href="articles.html">
+                    <button class="bouton">Par là</button>
+                </a>
+            </div>
+            <div class="col_tri">
+                <img class="img_triangle" src="media/hiker_sun.jpg" alt="randonneur soleil">
+                <p class="txt_tri">Blog</p>
+                <a href="blog.html">
+                    <button class="bouton">Clique ici</button>
+                </a>
+            </div>
+        </div>
+
+
+        <h2 class="why">Pourquoi ce site ?</h2>
+        <p class="txt_why">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, vero iusto? Praesentium ipsa
+            eveniet, accusamus facilis nihil earum natus non nesciunt nisi laborum obcaecati iusto rem nam numquam
+            tenetur nobis?</p>
+
+        <div class="carousel_div">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="media/sunset.webp" class="d-block w-100 carousel_img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/sky_lake.webp" class="d-block w-100 carousel_img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="media/double_lac.webp" class="d-block w-100 carousel_img" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="divtriangle deux">
+            <div class="triangle deux"></div>
+        </div>
+
+        <div class="contact_img_basp">
+            <img class="fleur" src="media/fleur.webp" alt="fleur de montagne">
+            <div class="contact_bas_p">
+                <a href="contact.html">
+                    <button class="bouton">Contactez moi !</button>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
