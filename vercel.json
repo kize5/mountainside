@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "https://mountainside-kize5.vercel.app/",
+      "destination": "https://mountainside-i2x1jbq8w-kize5.vercel.app/mountain-side.html"
+    }
+  ]
+}
